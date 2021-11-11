@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: update
-        run: sudo apt-get update
+        run: brew update
       
       - name: build-essential
         run: brew install cmake eigen
